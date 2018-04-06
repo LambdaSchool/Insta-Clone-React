@@ -1,0 +1,47 @@
+.SearchBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    height: 70px;
+}
+
+.SearchBar__Logo {
+    color: Black;
+}
+
+.SearchBar__Logo:hover {
+    color: Black;
+    text-decoration: none;
+}
+
+.SearchBar__Title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    border-left: 1px solid lightgrey;
+    margin-left: 10%;
+    padding: 0 10%;
+}
+
+.SearchBar__Buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.SearchBar__Button {
+    color: lightgray;
+}
+
+.SearchBar__Input {
+    height: 30px;
+    max-width: 100%;
+    width: 200px;
+    text-align: center;
+    font-weight: 100;
+    color: lightgray;
+}
+
+.SearchBar__Input::placeholder {
+    color: lightgray;
+}
