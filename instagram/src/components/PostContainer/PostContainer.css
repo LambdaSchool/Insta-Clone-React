@@ -1,0 +1,40 @@
+
+.postContainer {
+    width: 100%;
+	max-width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    border: solid lightgray;
+}
+
+
+.ccard {
+    
+    display:flex;
+    flex-flow: row wrap;
+
+}
+ 
+.ccard .icon-container {
+    height: 60px;
+    
+}
+
+.ccard .image-container {
+    height: 600px;
+
+}
+.ccard .image {
+    height: 100%;
+
+}
+
+.ccard .logo {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.ccard .fadedText{
+    color: lightgray;
+    font-size: 12px;
+}
