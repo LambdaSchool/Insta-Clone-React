@@ -1,0 +1,47 @@
+.post-container-wrapper {
+  border: 2px white solid;
+}
+.post-border {
+  border: 1px #E6E6E6 solid;
+  width: 615px;
+  margin: 0 auto;
+  margin-top: 120px;
+  background-color: white;
+}
+
+.post-border .post-header {
+  display: flex;
+  width: 30%;
+  height: 50px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.post-border .post-header img {
+  height: 30px;
+  border-radius:20px;
+  margin-right: 10px;
+}
+
+.post-border .post-header p {
+  margin-top:15px;
+}
+.post-border .post-image-wrapper img {
+  width: 610px;
+}
+
+.post-border .actions {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0 auto;
+  margin-top:5px;
+}
+
+.post-border .likes {
+  font-weight: 500;
+  font-size: 14px;
+  width: 15%;
+  margin-left: 5px;
+  margin-bottom: -10px;
+}

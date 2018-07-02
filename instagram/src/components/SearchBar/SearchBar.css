@@ -1,0 +1,32 @@
+.App {
+  background-color: #FAFAFA;
+  }
+
+.nav-container {
+  width: 100%;
+  border-bottom: 1px lightgray solid;
+  height: 78px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+.nav-container .nav {
+  width: 965px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 78px;
+}
+
+.nav .search input{
+  height: 30px;
+  width: 215px;
+  margin-right: 50px;
+  border-radius: 3px;
+  background-color: #FAFAFA;
+  color: #BDBDBD;
+  border: 1px #DBDBDB solid;
+  font-size: 13px;
+  text-align: center;
+}

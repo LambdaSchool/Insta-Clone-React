@@ -1,0 +1,28 @@
+.comment-text {
+  font-size: 14px;
+  margin-left: 20px;
+  display: flex;
+  margin-bottom: -10px;
+}
+.comment-text .user {
+  font-weight: 500;
+}
+.comment-text .comment {
+  margin-left: 10px;
+  display: flex;
+  flex-flow: wrap;
+}
+
+.add-comment {
+  height: 50px;
+}
+.add-comment input {
+  border: none;
+  height: 50px;
+  width: 570px;
+  font-size: 14px;
+  border-top: 1px #EFEFEF solid;
+}
+.add-comment input:focus {
+  outline: none;
+}
