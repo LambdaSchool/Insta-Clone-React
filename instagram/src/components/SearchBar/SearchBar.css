@@ -1,0 +1,13 @@
+.icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-bar {
+    width: 230px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1 px solid grey;
+}
