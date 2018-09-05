@@ -22,10 +22,25 @@ class App extends Component {
     this.setState({data: nextData});
   }
 
+  clickHeart = (interactIndex) => {
+    const newData = [...this.state.data];
+    const updateData = newData.map((data, index) => {
+      if(index === interactIndex) {
+        data.likes += 1;
+      }
+      return data;
+    })
+    this.setState({data: updateData});
+  }
+
   render() {
     return (
       <div className="App">
-        <PostContainer posts={this.state.data} addNewComment={this.addNewComment} />
+        <PostContainer 
+          posts={this.state.data} 
+          addNewComment={this.addNewComment} 
+          clickHeart={this.clickHeart}
+        />
       </div>
     );
   }

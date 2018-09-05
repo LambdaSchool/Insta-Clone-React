@@ -8,13 +8,15 @@ const PostContainer = props => {
         <div>
             {props.posts.map((post, index) => {
                 return (
-                    <div>
+                    <div key={post.timestamp}>
                         <Post 
                             post={post}
-                            key={post.timestamp}
+                            
                         />
                         <InteractPost 
                             post={post}
+                            clickHeart={props.clickHeart}
+                            interactIndex={index}
                             
                         />
                         <CommentSection 

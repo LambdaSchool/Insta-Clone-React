@@ -3,9 +3,9 @@ import React from 'react';
 function Post(props) {
   return (
     <div>
-       <img src={props.post.thumbnailUrl}/>
+       <img src={props.post.thumbnailUrl} alt={''}/>
       <h2>{props.post.username}</h2>
-      <img src={props.post.imageUrl} likes/>
+      <img src={props.post.imageUrl} alt={''}/>
     </div>
   )
 }
