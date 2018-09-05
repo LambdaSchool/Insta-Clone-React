@@ -1,9 +1,6 @@
 import React from "react";
 
 class InteractPost extends React.Component {
-  constructor(props) {
-    super(props);
-  }
 
   heartClicked= event => {
     this.props.clickHeart(this.props.interactIndex);

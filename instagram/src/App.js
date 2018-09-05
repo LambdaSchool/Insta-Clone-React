@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import dummyData from "./dummy-data";
-import PostContainer from './components/PostContainer/PostContainer';
-import SearchBar from './components/SearchBar/SearchBar';
+
+import PostPage from "./components/PostContainer/PostPage"
+import Authenticate from "./components/Authentication/Authenticate";
+
 
 class App extends Component {
   constructor() {
@@ -34,12 +36,14 @@ class App extends Component {
     this.setState({data: updateData});
   }
 
+ 
+
   render() {
+
     return (
       <div className="App">
-        <SearchBar logo={logo}/>
-        <PostContainer
-          posts={this.state.data} 
+        <PostPage 
+          data={this.state.data}
           addNewComment={this.addNewComment} 
           clickHeart={this.clickHeart}
         />
@@ -48,4 +52,6 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Authenticate(App);
+
+
