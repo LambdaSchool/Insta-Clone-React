@@ -1,11 +1,38 @@
 .person {
-	background: url('../../img/3243a2788e25.png') no-repeat -433px -318px;
+	background: url('../../img/5bc02fa85667.png') no-repeat -184px -78px;
 	width: 22px;
-	height: 21px;
+	height: 24px;
 }
 
 .logo {
   background: url('../../img/3243a2788e25.png') no-repeat -98px -203px;
 	width: 176px;
 	height: 35px;
+}
+
+.heart {
+	background: url('../../img/3243a2788e25.png') no-repeat -184px -359px;
+	width: 23px;
+	height: 20px;
+}
+
+.compass {
+	background: url('../../img/3243a2788e25.png') no-repeat -262px -358px;
+	width: 22px;
+	height: 24px;
+}
+
+.search {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 10px auto;
+}
+
+.search .icons {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 10%;
 }

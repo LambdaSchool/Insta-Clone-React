@@ -38,7 +38,7 @@ class App extends Component {
     return (
       <div className="App">
         <SearchBar logo={logo}/>
-        <PostContainer 
+        <PostContainer
           posts={this.state.data} 
           addNewComment={this.addNewComment} 
           clickHeart={this.clickHeart}
