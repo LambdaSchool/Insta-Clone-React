@@ -1,0 +1,21 @@
+.posts .post {
+  
+}
+
+.post .heading {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.post .heading img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+  margin-right: 1%;
+}
+
+.post img {
+  width: 100%;
+}
