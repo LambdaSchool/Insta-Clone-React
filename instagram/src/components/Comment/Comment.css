@@ -1,0 +1,18 @@
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.username {
+  font-size: 1.2rem;
+}
+
+.text {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: -10px;
+}

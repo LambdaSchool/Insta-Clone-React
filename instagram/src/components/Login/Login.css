@@ -1,0 +1,77 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.box {
+  height: 500px;
+  border: 1px solid rgba(0,0,0,0.2);
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+img {
+  width: 50%;
+}
+
+p {
+  font-size: 1.2rem;
+  text-align: center;
+  width: 50%;
+  color: #999;
+}
+
+.username-input {
+  width: 200px;
+  height: 30px;
+  margin: 20px 0;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  font-size: 1.6rem;
+  padding: 0 20px;
+  background: #fafafa;
+  max-width: 100%;
+}
+
+.password-input {
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  font-size: 1.6rem;
+  padding: 0 20px;
+  background: #fafafa;
+  max-width: 100%;
+}
+
+.username-input::placeholder, .password-input::placeholder {
+  text-align: center;
+  color: #999;
+}
+
+.login-button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  font-size: 1.6rem;
+  background: #5696E9;
+  color: #fff;
+  max-width: 100%;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.login-button:hover {
+  box-shadow: 0 4px 7px rgba(0,0,0,0.25), 0 3px 3px rgba(0,0,0,0.22);
+}
