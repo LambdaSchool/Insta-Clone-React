@@ -5,12 +5,12 @@
 - Be able to use styled-components to add functional styles to your React Components
 - Be able to explain why state driven views and components are useful patterns for scalability, composability, and reuse and how React enables those patterns
 
-### Daily Setup (Day III)
+### Daily Setup (Day IV)
 
 - By now you have been working on laying out your application, adding functionality and even building out a login system that only shows your app if a user is logged in.
 - Today we're going to be adding `styled-components` to our application. For more on the motivation behind this approach watch this [styled-components](https://youtu.be/bIK2NwoK9xk).
 
-#### Tasks (Day III)
+#### Tasks (Day IV)
 
 - Try and replace all of the styles you have previously written. Change everything to be a Styled Component. (Except for where you need to reference your icon classNames.)
 
@@ -35,7 +35,7 @@
 
 - Read [this article](https://dev.to/nimmo/state-driven-development-for-user-interfaces-part-1-an-introduction-27f1) about 'State Driven Views' and come up with a short paragraph as to why you feel that `state-driven` views are important to us as software developers today? What are state-driven applications? Why are they powerful? How does React enables those patterns?
 
-#### Stretch Problems (Day III)
+#### Stretch Problems (Day IV)
 
 - Add the functionality to select a single Post. If a user clicks on a post, only show that post.
   - You will need to research into `React Router V. 4` (this is what we're learning about next week) to get this to work in a fluid fashion.
