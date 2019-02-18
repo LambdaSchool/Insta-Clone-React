@@ -1,0 +1,38 @@
+.commentContainer {
+    margin-left: 10px;
+}
+
+h3 {
+    margin: 0 auto;
+    color: grey;
+    font-size: 12px;
+    width: 97%;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 5px;
+}
+
+.addComment {
+    margin-left: 10px;
+    
+}
+
+input {
+    height: 20px;
+    width: 90%;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+button {
+    font-size:20px;
+    border: none;
+    cursor: pointer;
+}
+
+.underPic {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+}

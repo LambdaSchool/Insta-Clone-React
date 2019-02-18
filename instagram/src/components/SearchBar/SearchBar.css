@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+
+.searchBar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Grand Hotel', cursive;
+
+}
+
+.brand > img {
+    padding: 0px 10px;
+    border-right: 1px solid grey;
+    margin-right: 10px;
+}
+
+.searchBar > input {
+    width: 35%;
+    margin-top: 10px;
+}
+
+.searchNav > img {
+    margin: 5px;
+}
