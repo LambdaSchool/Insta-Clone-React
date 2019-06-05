@@ -1,0 +1,49 @@
+.search-bar-container{
+    width:100%;
+    display:flex;
+    margin:30px;
+    border-bottom: 2px solid lightgray;
+    align-items:center;
+    
+}
+.logo-section{
+    width:33%;
+   
+}
+.main-logo{
+    width:20%;
+    padding-bottom:10px;
+}
+.text-logo{
+    width:70%;
+   
+}
+
+.search-input{
+    width:33%;
+    display:flex;
+    justify-content: center;
+    padding-right:4%;
+}
+.search{
+    width:80%;
+    height: 30px;
+}
+.nav-icons{
+    width:29%;
+    display:flex;
+    
+}
+.compass{
+    width:20%;
+    height:45px;
+}
+.heart{
+    height:50px;
+    width:35%;
+}
+.user{
+    width:20%;
+    height:55px; 
+    padding-bottom:5px;
+}

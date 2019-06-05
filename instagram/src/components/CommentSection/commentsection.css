@@ -1,0 +1,25 @@
+.username{
+    font-weight:bold;
+}
+.comment{
+    margin:10px 0px;
+}
+.add-comment-section{
+    display:flex;
+    align-items:center;
+    width:100%;
+    margin-top:40px;
+    padding-top:20px;
+    height:50px;
+    border-top: 2px solid lightgray;
+}
+.comment-input{
+    width:80%;
+    height:50px;
+    border:none;
+}
+.three-dot{
+    width:10%;
+    height:45px;
+    
+}

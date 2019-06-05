@@ -1,0 +1,31 @@
+
+
+.thumbnail{
+    width:50px;
+    height:50px;
+    border-radius:10px;
+    margin-right:10px;
+}
+.like-section{
+    width:20%;
+    margin:10px 0%;
+
+}
+.like-icons{
+    width:100%;
+    display:flex;
+    
+}
+.heart-likes{
+    width:60%;
+    height:45px;
+   
+}
+.comment-bubble{
+    width:35%;
+    height:45px;
+}
+.likes{
+    font-weight:bold;
+    margin:20px 0px;
+}

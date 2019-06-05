@@ -1,0 +1,22 @@
+.login-container{
+    width:100%;
+    max-width:880px;
+    margin:50px auto;
+    display:flex;
+    flex-direction:column;
+}
+.username{
+    width:30%;
+    margin:10px auto;
+}
+.password{
+    width:30%;
+    margin:10px auto;
+}
+.login-button{
+    width:20%;
+    margin:10px auto;
+}
+.logo-section{
+    margin:20px auto;
+}
