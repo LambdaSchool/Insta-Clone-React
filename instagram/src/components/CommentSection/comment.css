@@ -1,0 +1,27 @@
+.comment-container {
+  padding: 10px;
+  line-height: 1;
+} 
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comment-content p span {
+  font-weight: bold;
+}
+
+.comment-form {
+  padding-top: 20px;
+  border-top: 1px solid rgba(170, 170, 170, 0.637);
+}
+.comment-form form input {
+  border: none;
+  width: 100%;
+  color: rgba(170, 170, 170, 0.637);
+  font-weight: bold;
+}
+
+.comment-form form input:focus {
+  outline: none;
+}
