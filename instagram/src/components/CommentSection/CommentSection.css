@@ -1,0 +1,29 @@
+.post-comments {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 1.6rem;
+  padding: 15px;
+}
+
+.post-comment {
+  margin-bottom: 10px;
+}
+
+.post-comment-actions {
+  font-size: 2.6rem;
+  margin-bottom: 10px;
+}
+
+.post-comment-actions i {
+  margin-right: 20px;
+}
+
+.post-comment-likes {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-comment-username {
+  font-weight: bold;
+  margin-right: 5px;
+}

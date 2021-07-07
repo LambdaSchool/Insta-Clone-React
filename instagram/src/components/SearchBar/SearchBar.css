@@ -1,0 +1,39 @@
+.search-bar-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-instagram {
+  font-size: 62px;
+}
+
+.search-bar-logo {
+  align-items: center;
+  display: flex;
+}
+
+.search-bar-logo img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+.search-bar-input {
+  align-items: center;
+  display: flex;
+}
+
+.search-bar-actions {
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+}
+
+.search-bar-actions i {
+  margin-left: 20px;
+}
+.vertical-line {
+  border-left: 1px solid black;
+  height: 62px;
+  margin: 0 20px;
+}
